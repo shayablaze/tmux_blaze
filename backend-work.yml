@@ -55,6 +55,8 @@ windows:
   - qa:
       layout: main-horizontal
       panes:
-        - $SCRIPTS/qa_bash.zsh
+        - $SCRIPTS/qa_mongo.zsh
         - $SCRIPTS/qa_vim.zsh
+        - $SCRIPTS/qa_bash.zsh
+        - $SCRIPTS/qa_logs.zsh
   - php-playground: cd ~/php-playground && clear && ll
